@@ -39,10 +39,17 @@
         android:onClick="clear" />
 
     <Button
-        android:id="@+id/save"
-        android:layout_width="fill_parent"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/save"
-        android:onClick="save" />
+        android:onClick="seeSummary"
+        android:text="SeeSummary" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="save"
+        android:text="@string/save" />
 
 </LinearLayout>
